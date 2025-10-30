@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root{
+  --my-text-shadow: -1px 1px 0 white, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+@font-face {
+  font-family: SuperTrend;
+  src: url("assets/Super Trend.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-size: xx-large;
+}
+
+@theme {
+  --font-display: "SuperTrend", "sans-serif";
+}
+
+@keyframes react-rotate {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(359);
+  }
+}
